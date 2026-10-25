@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">推广分析看板交互示意图</title>
+  <desc id="desc">用于说明报告中的筛选、指标卡、趋势图、可排序明细表和悬浮查看。为项目示意图，不是运行截图。</desc>
+  <defs><linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4e63ff"/><stop offset="1" stop-color="#8b82ff"/></linearGradient><filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#8fa1d1" flood-opacity=".12"/></filter></defs>
+  <rect width="1200" height="700" rx="30" fill="#f4f6ff"/>
+  <rect x="24" y="24" width="1152" height="652" rx="26" fill="#fff" stroke="#e0e7fb"/>
+  <text x="64" y="76" fill="#536fff" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="14" font-weight="700" letter-spacing="2">INTERACTIVE REPORT · UI CONCEPT</text>
+  <text x="64" y="116" fill="#172033" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="27" font-weight="700">筛选、趋势和明细，在同一份报告里联动查看</text>
+  <rect x="64" y="145" width="1072" height="95" rx="18" fill="url(#hero)"/>
+  <text x="88" y="178" fill="#e6eaff" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" font-weight="700">淘宝 / 天猫推广分析 · 合成样例</text>
+  <text x="88" y="215" fill="#fff" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="25" font-weight="700">投放诊断与多维看板</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <rect x="64" y="262" width="1072" height="64" rx="16" fill="#fff" stroke="#e0e7fb"/>
+    <rect x="82" y="277" width="196" height="34" rx="10" fill="#f7f8ff" stroke="#dce4fa"/><text x="98" y="299" fill="#7c879d" font-size="12">维度</text><text x="145" y="299" fill="#27344e" font-size="13" font-weight="700">商品　⌄</text>
+    <rect x="294" y="277" width="255" height="34" rx="10" fill="#f7f8ff" stroke="#dce4fa"/><text x="310" y="299" fill="#7c879d" font-size="12">搜索名称或 ID</text>
+    <rect x="565" y="277" width="208" height="34" rx="10" fill="#f7f8ff" stroke="#dce4fa"/><text x="582" y="299" fill="#7c879d" font-size="12">日期</text><text x="623" y="299" fill="#27344e" font-size="13">2026-10-01 ~ 10-07</text>
+    <rect x="792" y="277" width="124" height="34" rx="10" fill="#536fff"/><text x="854" y="299" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">应用筛选</text>
+    <text x="948" y="299" fill="#536fff" font-size="13" font-weight="700">↕ 排序</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="64" y="346" width="500" height="176" rx="18" fill="#fff" stroke="#e5eaf5"/>
+    <rect x="584" y="346" width="552" height="176" rx="18" fill="#fff" stroke="#e5eaf5"/>
+  </g>
+  <text x="88" y="378" fill="#172033" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="16" font-weight="700">核心指标</text>
+  <text x="88" y="404" fill="#7c879d" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12">示例值仅用于版式演示</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <text x="88" y="443" fill="#8490a6" font-size="12">花费</text><text x="88" y="478" fill="#172033" font-size="26" font-weight="700">¥12,480</text>
+    <text x="238" y="443" fill="#8490a6" font-size="12">直接成交</text><text x="238" y="478" fill="#172033" font-size="26" font-weight="700">¥38,260</text>
+    <text x="408" y="443" fill="#8490a6" font-size="12">直接 ROI</text><text x="408" y="478" fill="#536fff" font-size="26" font-weight="700">3.07x</text>
+  </g>
+  <text x="608" y="378" fill="#172033" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="16" font-weight="700">每日趋势</text>
+  <text x="608" y="403" fill="#7c879d" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12">可切换指标，观察花费与产出变化</text>
+  <path d="M614 490H1108M614 458H1108M614 426H1108" fill="none" stroke="#edf0f7" stroke-width="1" stroke-dasharray="4 6"/>
+  <path d="M625 481L690 467L754 474L819 436L884 450L949 412L1014 427L1078 393" fill="none" stroke="#536fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#fff" stroke="#536fff" stroke-width="3"><circle cx="625" cy="481" r="5"/><circle cx="690" cy="467" r="5"/><circle cx="754" cy="474" r="5"/><circle cx="819" cy="436" r="5"/><circle cx="884" cy="450" r="5"/><circle cx="949" cy="412" r="5"/><circle cx="1014" cy="427" r="5"/><circle cx="1078" cy="393" r="5"/></g>
+  <rect x="64" y="544" width="1072" height="104" rx="18" fill="#fff" stroke="#e5eaf5"/>
+  <rect x="64" y="544" width="1072" height="36" rx="18" fill="#f5f7fc"/><path d="M64 580H1136" stroke="#e5eaf5"/>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#6e7890"><text x="88" y="568">商品名称 / ID</text><text x="512" y="568">花费 ⇅</text><text x="650" y="568">直接成交额 ⇅</text><text x="820" y="568">成交笔数 ⇅</text><text x="973" y="568">直接 ROI ⇅</text></g>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13" fill="#283650"><text x="88" y="607">合成商品 A　　100000000001</text><text x="512" y="607">¥3,180</text><text x="650" y="607">¥12,900</text><text x="820" y="607">86</text><text x="973" y="607" fill="#536fff" font-weight="700">4.06x</text><text x="88" y="634" fill="#7c879d" font-size="11">演示数据，不代表真实经营表现</text></g>
+  <rect x="64" y="657" width="8" height="8" rx="4" fill="#536fff"/><text x="80" y="666" fill="#7c879d" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="11">交互布局示意，不是运行截图；指标与数据字段以用户提供报表为准。</text>
+</svg>
