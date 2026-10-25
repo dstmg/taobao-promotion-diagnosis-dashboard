@@ -57,5 +57,6 @@
 
 - 公开仓库：[dstmg/taobao-promotion-diagnosis-dashboard](https://github.com/dstmg/taobao-promotion-diagnosis-dashboard)。
 - 主分支包含 26 个文件：Skill、Python 程序、使用与口径文档、4 份合成 CSV 样例及吉祥物插画。
-- 公开树已核对；未包含用户的真实报表、生成 HTML、`output/`、`.venv*/` 或临时目录标记。
-- 页面与文件树已通过 GitHub 读取接口复核；本次仅公开项目文件，没有创建 Release 或标签。
+- 用户随后授权公开三张真实 HTML 看板页面截图，画面包含报告指标；原始报表文件与生成 HTML 未随仓库发布。
+- 当前截图资产包括推广诊断总览、核心趋势和多维拆解，供 README 展示真实界面。公开截图中的业务指标属于主动展示内容。
+- `output/`、`.venv*/` 和临时目录标记未纳入公开文件；本次没有创建 Release 或标签。

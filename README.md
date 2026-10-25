@@ -4,19 +4,19 @@
   <img src="assets/promotion-diagnosis-mascot.png" width="360" alt="腿毛哥小猫推广数据分析师">
 </p>
 
-## 项目图示
+## 实际看板截图
 
-![从推广报表到本地分析看板的流程](assets/project-overview.svg)
+![推广诊断总览实际报告截图](assets/report-diagnosis.png)
 
-![看板支持的八类报表维度与关联边界](assets/analysis-dimensions.svg)
+![核心趋势实际报告截图](assets/report-trends.png)
 
-![筛选、趋势和明细交互布局示意](assets/dashboard-ui-preview.svg)
+![多维拆解实际报告截图](assets/report-multidimension.png)
 
-以上是项目说明图；界面图为合成内容的布局示意，不是实际运行截图或商家数据。
+以上为实际 HTML 看板截图，画面含真实报告指标；原始报表文件未随仓库发布。
 
 一个面向淘宝/天猫推广报表的本地分析 Skill。读取用户上传的 ZIP、CSV 或 XLSX 报表，做字段识别、口径校验、维度汇总和关联检查，再生成可交互的单文件 HTML 看板。
 
-项目使用自有实现和合成样例。当前版本不连接商家账号、不调用平台接口、不上传数据，也不包含真实店铺报表。生成的 HTML 会内嵌本次报告数据，应按原始报表同等保管。
+项目使用自有实现和合成样例。脚本不连接商家账号、不调用平台接口、不上传用户报表。README 展示区另含维护者授权公开的真实 HTML 看板截图，画面包含报告指标；原始报表文件未随仓库发布。生成的 HTML 会内嵌本次报告数据，应按原始报表同等保管。
 
 ## 能力范围
 
