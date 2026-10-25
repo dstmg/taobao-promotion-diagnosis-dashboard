@@ -1,0 +1,15 @@
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+inputs/
+output/
+*.zip
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.html
+!src/promo_dashboard/report-template.html
+!examples/synthetic_reports/*.csv
