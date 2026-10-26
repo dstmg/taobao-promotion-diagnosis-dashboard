@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "taobao-promotion-diagnosis-dashboard"
-version = "0.1.0"
+version = "0.2.0"
 description = "Local analysis and interactive dashboard for Taobao promotion reports"
 license = "MIT"
 requires-python = ">=3.10"
@@ -17,4 +17,4 @@ package-dir = {"" = "src"}
 where = ["src"]
 
 [tool.setuptools.package-data]
-promo_dashboard = ["report-template.html"]
+promo_dashboard = ["report-template.html", "dashboard.js", "dashboard.css"]

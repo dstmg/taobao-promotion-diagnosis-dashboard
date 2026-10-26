@@ -122,6 +122,10 @@ class PipelineTests(unittest.TestCase):
         html = render_html(build_payload([dataset], []))
         self.assertIn("悬浮查看", html)
         self.assertIn("report-data", html)
+        for section in ("推广诊断与行动", "核心趋势", "增长机会", "推广商品核查", "新品与测款观察", "投产与分配", "推广商品明细", "商品核查清单", "预算情景试算", "多维拆解"):
+            self.assertIn(section, html)
+        self.assertNotIn("__DASHBOARD_JS__", html)
+        self.assertNotIn("__DASHBOARD_CSS__", html)
         self.assertNotIn("https://", html)
 
     def test_missing_numerator_is_not_treated_as_zero_sales(self) -> None:

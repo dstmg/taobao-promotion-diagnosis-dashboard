@@ -32,7 +32,14 @@ def render_html(payload: dict[str, Any], template_path: str | Path | None = None
     if template_path is None:
         template_path = Path(__file__).resolve().with_name("report-template.html")
     template = Path(template_path).read_text(encoding="utf-8")
+    template_dir = Path(template_path).resolve().parent
+    dashboard_js = (template_dir / "dashboard.js").read_text(encoding="utf-8")
+    dashboard_css = (template_dir / "dashboard.css").read_text(encoding="utf-8")
     data = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
     # Avoid ending the application/json element early and preserve JS parsing.
     data = data.replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
-    return template.replace("__REPORT_DATA__", data)
+    return (
+        template.replace("__REPORT_DATA__", data)
+        .replace("__DASHBOARD_JS__", dashboard_js)
+        .replace("__DASHBOARD_CSS__", dashboard_css)
+    )
